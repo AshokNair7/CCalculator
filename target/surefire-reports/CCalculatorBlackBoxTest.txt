@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: CCalculatorBlackBoxTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.201 sec <<< FAILURE! - in CCalculatorBlackBoxTest
+test_blackbox[TEST_NG_VALUE](CCalculatorBlackBoxTest)  Time elapsed: 0.107 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]Add 0> but was:<[j is negative]Add 0>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at CCalculatorBlackBoxTest.test_blackbox(CCalculatorBlackBoxTest.java:84)
+
+test_blackbox[Test Large number](CCalculatorBlackBoxTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]70> but was:<[Add ]70>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at CCalculatorBlackBoxTest.test_blackbox(CCalculatorBlackBoxTest.java:84)
+

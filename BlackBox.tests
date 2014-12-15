@@ -1,0 +1,23 @@
+[
+    {
+        "": {
+            "input": "5 5",
+            "output": "Add 10",
+            "type": "CLI"
+        }
+    },
+    {
+        "TEST_NG_VALUE": {
+            "input": "5 \n-5",
+            "output": "Add 0",
+            "type": "CLI"
+        }
+    },
+    {
+        "Test Large number": {
+            "input": "25 45",
+            "output": "70",
+            "type": "CLI"
+        }
+    }
+]

@@ -1,0 +1,64 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "Good_test_case",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "5 5",
+                    "output": "Add 10",
+                    "type": "CLI"
+                },
+                "score": "5",
+                "visible": "all"
+            },
+            {
+                "checkName": "TEST_NG_VALUE",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "5 \n-5",
+                    "output": "Add 0",
+                    "type": "CLI"
+                },
+                "score": "5",
+                "visible": "all"
+            },
+            {
+                "checkName": "Test Large number",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "25 45",
+                    "output": "70",
+                    "type": "CLI"
+                },
+                "score": "",
+                "visible": "all"
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "10",
+                "visible": "all"
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "75",
+        "system": "25"
+    },
+    "lastSaved": "20141215 161206"
+}
