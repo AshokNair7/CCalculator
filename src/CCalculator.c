@@ -7,8 +7,8 @@ void cCalculatorMain(int argc, char** argv) {
 	if(argc == 3) {
 		i = atoi(argv[1]);
 		j = atoi(argv[2]);
-		if(i < 0) printf("i is negative");
-		if(j < 0) printf("j is negative");
+		//if(i < 0) printf("i is negative");
+		//if(j < 0) printf("j is negative");
 		printf("Add %d", i+j);
 	} else {
 		printf("Please pass valid number arguments");

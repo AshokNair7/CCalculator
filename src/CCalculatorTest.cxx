@@ -19,12 +19,12 @@ int main( int argc, char *argv[] ) {
     return status;
 }
 bool suite_CCalculatorTest_init = false;
-#include "/var/www/html/codeit/workspace/CCalculator/src/CCalculatorTest.h"
+#include "/var/www/html/codeit/workspace/CCalculator_exercise/src/CCalculatorTest.h"
 
 static CCalculatorTest suite_CCalculatorTest;
 
 static CxxTest::List Tests_CCalculatorTest = { 0, 0 };
-CxxTest::StaticSuiteDescription suiteDescription_CCalculatorTest( "/var/www/html/codeit/workspace/CCalculator/src/CCalculatorTest.h", 5, "CCalculatorTest", suite_CCalculatorTest, Tests_CCalculatorTest );
+CxxTest::StaticSuiteDescription suiteDescription_CCalculatorTest( "/var/www/html/codeit/workspace/CCalculator_exercise/src/CCalculatorTest.h", 5, "CCalculatorTest", suite_CCalculatorTest, Tests_CCalculatorTest );
 
 static class TestDescription_suite_CCalculatorTest_test_Unit_Test_1 : public CxxTest::RealTestDescription {
 public:

@@ -2,7 +2,7 @@
     "criteria": {
         "blackboxtests": [
             {
-                "checkName": "",
+                "checkName": "Good_test_case",
                 "checkType": "BlackBoxTest",
                 "group": "blackboxtests",
                 "penalty": "",
@@ -13,12 +13,7 @@
                 },
                 "score": "5",
                 "visible": "all",
-                "result": {
-                    "PASS": true,
-                    "violations": [
-                        ""
-                    ]
-                }
+                "result": null
             },
             {
                 "checkName": "TEST_NG_VALUE",
@@ -33,9 +28,9 @@
                 "score": "5",
                 "visible": "all",
                 "result": {
-                    "PASS": false,
+                    "PASS": true,
                     "violations": [
-                        "expected:<[]Add 0> but was:<[j is negative]Add 0>"
+                        ""
                     ]
                 }
             },
@@ -84,12 +79,12 @@
         "blackboxtests": "75",
         "system": "25"
     },
-    "lastSaved": "20141215 160328",
+    "lastSaved": "20141215 161206",
     "resultSummary": {
         "blackboxtests": {
             "totalchecks": 3,
-            "pass": 1,
-            "fail": 2,
+            "pass": 2,
+            "fail": 1,
             "error": 0,
             "skipped": 0,
             "groupScore": 5
@@ -104,5 +99,5 @@
         },
         "overallScore": 6
     },
-    "resultLastSaved": "20141215 160840"
+    "resultLastSaved": "20141217 090641"
 }
